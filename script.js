@@ -1,5 +1,5 @@
 //your JS code here. If required.
-document.addEventListner('DOMContentLoaded', function(){
+document.addEventListener('DOMContentLoaded', function(){
 	const existingButton= document.getElementById('existing');
 
 	if(localStorage.getItem('username')&&localStorage.getItem('password')){
